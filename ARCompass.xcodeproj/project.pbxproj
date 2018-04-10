@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E04F17220730F450036ED0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E04F17120730F450036ED0A /* AppDelegate.swift */; };
+		1E04F17420730F450036ED0A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E04F17320730F450036ED0A /* art.scnassets */; };
+		1E04F17620730F450036ED0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E04F17520730F450036ED0A /* ViewController.swift */; };
+		1E04F17920730F450036ED0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E04F17720730F450036ED0A /* Main.storyboard */; };
+		1E04F17B20730F460036ED0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E04F17A20730F460036ED0A /* Assets.xcassets */; };
+		1E04F17E20730F460036ED0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E04F17C20730F460036ED0A /* LaunchScreen.storyboard */; };
+		1E04F18920730F460036ED0A /* ARCompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E04F18820730F460036ED0A /* ARCompassTests.swift */; };
+		1E04F19420730F460036ED0A /* ARCompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E04F19320730F460036ED0A /* ARCompassUITests.swift */; };
+		1E04F1A220734F1C0036ED0A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E04F1A120734F1C0036ED0A /* Plane.swift */; };
+		1E04F1A9207B4E5B0036ED0A /* plant.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E04F1A8207B4E5B0036ED0A /* plant.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E04F18520730F460036ED0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E04F16620730F450036ED0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E04F16D20730F450036ED0A;
+			remoteInfo = ARCompass;
+		};
+		1E04F19020730F460036ED0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E04F16620730F450036ED0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E04F16D20730F450036ED0A;
+			remoteInfo = ARCompass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E04F16E20730F450036ED0A /* ARCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E04F17120730F450036ED0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E04F17320730F450036ED0A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		1E04F17520730F450036ED0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E04F17820730F450036ED0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E04F17A20730F460036ED0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E04F17D20730F460036ED0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E04F17F20730F460036ED0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E04F18420730F460036ED0A /* ARCompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E04F18820730F460036ED0A /* ARCompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCompassTests.swift; sourceTree = "<group>"; };
+		1E04F18A20730F460036ED0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E04F18F20730F460036ED0A /* ARCompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E04F19320730F460036ED0A /* ARCompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCompassUITests.swift; sourceTree = "<group>"; };
+		1E04F19520730F460036ED0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E04F1A120734F1C0036ED0A /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		1E04F1A8207B4E5B0036ED0A /* plant.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = plant.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E04F16B20730F450036ED0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E04F18120730F460036ED0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E04F18C20730F460036ED0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E04F16520730F450036ED0A = {
+			isa = PBXGroup;
+			children = (
+				1E04F17020730F450036ED0A /* ARCompass */,
+				1E04F18720730F460036ED0A /* ARCompassTests */,
+				1E04F19220730F460036ED0A /* ARCompassUITests */,
+				1E04F16F20730F450036ED0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E04F16F20730F450036ED0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E04F16E20730F450036ED0A /* ARCompass.app */,
+				1E04F18420730F460036ED0A /* ARCompassTests.xctest */,
+				1E04F18F20730F460036ED0A /* ARCompassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E04F17020730F450036ED0A /* ARCompass */ = {
+			isa = PBXGroup;
+			children = (
+				1E04F17120730F450036ED0A /* AppDelegate.swift */,
+				1E04F1A8207B4E5B0036ED0A /* plant.scnassets */,
+				1E04F17320730F450036ED0A /* art.scnassets */,
+				1E04F1A120734F1C0036ED0A /* Plane.swift */,
+				1E04F17520730F450036ED0A /* ViewController.swift */,
+				1E04F17720730F450036ED0A /* Main.storyboard */,
+				1E04F17A20730F460036ED0A /* Assets.xcassets */,
+				1E04F17C20730F460036ED0A /* LaunchScreen.storyboard */,
+				1E04F17F20730F460036ED0A /* Info.plist */,
+			);
+			path = ARCompass;
+			sourceTree = "<group>";
+		};
+		1E04F18720730F460036ED0A /* ARCompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E04F18820730F460036ED0A /* ARCompassTests.swift */,
+				1E04F18A20730F460036ED0A /* Info.plist */,
+			);
+			path = ARCompassTests;
+			sourceTree = "<group>";
+		};
+		1E04F19220730F460036ED0A /* ARCompassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E04F19320730F460036ED0A /* ARCompassUITests.swift */,
+				1E04F19520730F460036ED0A /* Info.plist */,
+			);
+			path = ARCompassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E04F16D20730F450036ED0A /* ARCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E04F19820730F460036ED0A /* Build configuration list for PBXNativeTarget "ARCompass" */;
+			buildPhases = (
+				1E04F16A20730F450036ED0A /* Sources */,
+				1E04F16B20730F450036ED0A /* Frameworks */,
+				1E04F16C20730F450036ED0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCompass;
+			productName = ARCompass;
+			productReference = 1E04F16E20730F450036ED0A /* ARCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E04F18320730F460036ED0A /* ARCompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E04F19B20730F460036ED0A /* Build configuration list for PBXNativeTarget "ARCompassTests" */;
+			buildPhases = (
+				1E04F18020730F460036ED0A /* Sources */,
+				1E04F18120730F460036ED0A /* Frameworks */,
+				1E04F18220730F460036ED0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E04F18620730F460036ED0A /* PBXTargetDependency */,
+			);
+			name = ARCompassTests;
+			productName = ARCompassTests;
+			productReference = 1E04F18420730F460036ED0A /* ARCompassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E04F18E20730F460036ED0A /* ARCompassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E04F19E20730F460036ED0A /* Build configuration list for PBXNativeTarget "ARCompassUITests" */;
+			buildPhases = (
+				1E04F18B20730F460036ED0A /* Sources */,
+				1E04F18C20730F460036ED0A /* Frameworks */,
+				1E04F18D20730F460036ED0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E04F19120730F460036ED0A /* PBXTargetDependency */,
+			);
+			name = ARCompassUITests;
+			productName = ARCompassUITests;
+			productReference = 1E04F18F20730F460036ED0A /* ARCompassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E04F16620730F450036ED0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mikeneko;
+				TargetAttributes = {
+					1E04F16D20730F450036ED0A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1E04F18320730F460036ED0A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1E04F16D20730F450036ED0A;
+					};
+					1E04F18E20730F460036ED0A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1E04F16D20730F450036ED0A;
+					};
+				};
+			};
+			buildConfigurationList = 1E04F16920730F450036ED0A /* Build configuration list for PBXProject "ARCompass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E04F16520730F450036ED0A;
+			productRefGroup = 1E04F16F20730F450036ED0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E04F16D20730F450036ED0A /* ARCompass */,
+				1E04F18320730F460036ED0A /* ARCompassTests */,
+				1E04F18E20730F460036ED0A /* ARCompassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E04F16C20730F450036ED0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E04F17420730F450036ED0A /* art.scnassets in Resources */,
+				1E04F17E20730F460036ED0A /* LaunchScreen.storyboard in Resources */,
+				1E04F1A9207B4E5B0036ED0A /* plant.scnassets in Resources */,
+				1E04F17B20730F460036ED0A /* Assets.xcassets in Resources */,
+				1E04F17920730F450036ED0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E04F18220730F460036ED0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E04F18D20730F460036ED0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E04F16A20730F450036ED0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E04F1A220734F1C0036ED0A /* Plane.swift in Sources */,
+				1E04F17620730F450036ED0A /* ViewController.swift in Sources */,
+				1E04F17220730F450036ED0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E04F18020730F460036ED0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E04F18920730F460036ED0A /* ARCompassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E04F18B20730F460036ED0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E04F19420730F460036ED0A /* ARCompassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E04F18620730F460036ED0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E04F16D20730F450036ED0A /* ARCompass */;
+			targetProxy = 1E04F18520730F460036ED0A /* PBXContainerItemProxy */;
+		};
+		1E04F19120730F460036ED0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E04F16D20730F450036ED0A /* ARCompass */;
+			targetProxy = 1E04F19020730F460036ED0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E04F17720730F450036ED0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E04F17820730F450036ED0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E04F17C20730F460036ED0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E04F17D20730F460036ED0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E04F19620730F460036ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E04F19720730F460036ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E04F19920730F460036ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRWG477FU9;
+				INFOPLIST_FILE = ARCompass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeneko-mohumohu.ARCompass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E04F19A20730F460036ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRWG477FU9;
+				INFOPLIST_FILE = ARCompass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeneko-mohumohu.ARCompass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E04F19C20730F460036ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRWG477FU9;
+				INFOPLIST_FILE = ARCompassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeneko-mohumohu.ARCompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCompass.app/ARCompass";
+			};
+			name = Debug;
+		};
+		1E04F19D20730F460036ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRWG477FU9;
+				INFOPLIST_FILE = ARCompassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeneko-mohumohu.ARCompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCompass.app/ARCompass";
+			};
+			name = Release;
+		};
+		1E04F19F20730F460036ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRWG477FU9;
+				INFOPLIST_FILE = ARCompassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeneko-mohumohu.ARCompassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCompass;
+			};
+			name = Debug;
+		};
+		1E04F1A020730F460036ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRWG477FU9;
+				INFOPLIST_FILE = ARCompassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeneko-mohumohu.ARCompassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCompass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E04F16920730F450036ED0A /* Build configuration list for PBXProject "ARCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E04F19620730F460036ED0A /* Debug */,
+				1E04F19720730F460036ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E04F19820730F460036ED0A /* Build configuration list for PBXNativeTarget "ARCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E04F19920730F460036ED0A /* Debug */,
+				1E04F19A20730F460036ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E04F19B20730F460036ED0A /* Build configuration list for PBXNativeTarget "ARCompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E04F19C20730F460036ED0A /* Debug */,
+				1E04F19D20730F460036ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E04F19E20730F460036ED0A /* Build configuration list for PBXNativeTarget "ARCompassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E04F19F20730F460036ED0A /* Debug */,
+				1E04F1A020730F460036ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E04F16620730F450036ED0A /* Project object */;
+}
